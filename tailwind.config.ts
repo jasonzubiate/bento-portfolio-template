@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         "trace-ash": "#0F0F0F",
         "demo-smoke": "#EFEFEF",
+        "bridal-health": "#FFFBF6",
       },
     },
   },

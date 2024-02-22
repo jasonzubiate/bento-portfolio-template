@@ -10,7 +10,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} text-trace-ash`}>{children}</body>
+      <body
+        className={`${inter.className} bg-trace-ash flex justify-center items-center h-screen`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
