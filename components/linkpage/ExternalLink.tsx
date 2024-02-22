@@ -9,19 +9,19 @@ export default function ExternalLink({ link }: { link: ExternalLink }) {
   };
 
   return (
-    <div
+    <a
       id={`link-to-${link.url}`}
+      href={link.url}
+      target="_blank"
       className="flex gap-3 border-2 border-[#F2F2F2] rounded-md p-2 cursor-pointer"
     >
       <div className="bg-demo-smoke rounded-lg px-3 flex items-center justify-center">
         <RenderLinkIcon />
       </div>
       <div className="flex flex-col">
-        <label htmlFor="link-name" className="font-medium">
-          {link.name}
-        </label>
+        <h4 className="font-medium">{link.name}</h4>
         <p className="text-gray-700">{link.description}</p>
       </div>
-    </div>
+    </a>
   );
 }
