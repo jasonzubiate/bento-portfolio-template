@@ -8,4 +8,33 @@
   @apply m-0 p-0 box-border;
 }
 
+img {
+  @apply object-cover object-center;
+}
 
+.cursor-dot {
+  @apply hidden sm:flex w-[8px] h-[8px] bg-[#EFEFEF] rounded-full fixed pointer-events-none opacity-0 z-10 mix-blend-difference;
+}
+
+/* WEBKIT */
+::-webkit-scrollbar {
+  @apply w-[4px] bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-[#EFEFEF] rounded-md mx-2;
+}
+
+.pulse {
+  animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+}

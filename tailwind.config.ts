@@ -10,8 +10,10 @@ const config: Config = {
     extend: {
       colors: {
         "trace-ash": "#0F0F0F",
+        "blush-gray": "#141414",
         "demo-smoke": "#EFEFEF",
         "bridal-health": "#FFFBF6",
+        "p-text": "#626262",
       },
     },
   },

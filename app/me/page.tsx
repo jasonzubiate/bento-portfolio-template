@@ -6,7 +6,7 @@ export default function MePage() {
   return (
     <main
       id="link-page"
-      className="w-full pt-8 sm:pt-4 sm:max-w-[460px] bg-white p-4 md:rounded-lg flex flex-col gap-4"
+      className="pt-8 sm:pt-4 sm:max-w-[460px] bg-white p-4 md:rounded-lg flex flex-col gap-4"
     >
       <Header />
       <ul id="external-links" className="flex flex-col gap-4">
