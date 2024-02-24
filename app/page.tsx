@@ -22,8 +22,9 @@ export default function Home() {
       <div className="w-2/3 flex flex-col gap-6">
         <Header />
         <div className="flex gap-6">
-          {websites.map((site) => (
+          {websites.map((site, index) => (
             <WidgetContainer
+              key={index}
               icon={site.icon}
               title={site.title}
               url={site.url}
@@ -35,8 +36,9 @@ export default function Home() {
           ))}
         </div>
         <div className="flex gap-6">
-          {projects.map((project) => (
+          {projects.map((project, index) => (
             <WidgetContainer
+              key={index}
               icon={project.icon}
               title={project.title}
               url={project.url}

@@ -10,7 +10,7 @@ export default function ContactButton() {
           onClick={() => emailRedirect()}
         >
           <FiMail size={20} className="mt-[2px]" />
-          <p>Let's connect</p>
+          <p>Let&apos;s connect</p>
         </button>
   )
 }

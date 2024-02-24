@@ -10,8 +10,8 @@ export default function SpinninCard() {
       <div className="flex flex-col gap-1">
         <h3 className="uppercase text-demo-smoke">Spinnin Studio</h3>
         <p className="text-base text-p-text">
-          Here&apos;s our page and some products we'd like to share, all for
-          free. Let's keep things spinnin.
+          Here&apos;s our page and some products we&apos;d like to share, all for
+          free. Let&apos;s keep things spinnin.
         </p>
       </div>
       <ul className="flex flex-col gap-2">
