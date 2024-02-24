@@ -28,7 +28,7 @@ export default function Header() {
           Applications.
         </p>
         <div className="flex flex-col">
-          <p className="uppercase font-medium">Now</p>
+          <p className="uppercase font-medium text-sm">Now</p>
           <p className="text-gray-700">
             Full-Stack Engineer @{" "}
             <a
@@ -48,6 +48,20 @@ export default function Header() {
               className="text-[#0070f3] hover:underline"
             >
               Spinnin
+            </a>
+            .
+          </p>
+        </div>
+        <div className="flex flex-col">
+          <p className="uppercase font-medium text-sm">Previously</p>
+          <p className="text-gray-700">
+            Machine Learning Intern @{" "}
+            <a
+              href="https://www.obviohealth.com/"
+              target="_blank"
+              className="text-[#0070f3] hover:underline"
+            >
+              ObvioHealth
             </a>
             .
           </p>

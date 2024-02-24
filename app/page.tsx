@@ -7,10 +7,12 @@ import SpinninCard from "@/components/website/SpinninCard";
 import WidgetContainer from "@/components/website/WidgetContainer";
 import { projects, websites } from "@/data";
 import { socialLinks } from "@/data";
+import { redirect } from "next/navigation";
 
 export default function Home() {
   const largeLinks = socialLinks.filter((link) => link.size === "large");
   const smallLinks = socialLinks.filter((link) => link.size === "small");
+  redirect("/me");
 
   return (
     <main
